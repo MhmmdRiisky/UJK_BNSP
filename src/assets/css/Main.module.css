@@ -1,0 +1,29 @@
+.mainContainer {
+       padding: 20px;
+       background-color: #f9f9f9;
+       border-radius: 8px;
+       text-align: center;
+     }
+     
+     h1 {
+       font-size: 2rem;
+       margin-bottom: 10px;
+     }
+     
+     p {
+       font-size: 1.2rem;
+       margin-bottom: 20px;
+     }
+     
+     canvas {
+       display: block;
+       margin: 20px auto;
+     }
+     
+     video {
+       display: block;
+       margin: 20px auto;
+       border: 2px solid #ccc;
+       border-radius: 8px;
+     }
+     

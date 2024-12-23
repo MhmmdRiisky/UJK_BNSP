@@ -1,0 +1,172 @@
+
+.navbar {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #1146f7;
+       padding: 10px 20px;
+       color: white;
+     }
+     
+     .navbar a {
+       color: white;
+       text-decoration: none;
+       font-size: 18px;
+       margin: 0 15px;
+       transition: color 0.3s;
+     }
+     
+     .navbar a:hover {
+       color: #f0a500;
+     }
+     
+     .logo a {
+       font-size: 24px;
+       font-weight: bold;
+       text-transform: uppercase;
+       color: white;
+       text-decoration: none;
+     }
+  
+     .menuToggle {
+       display: none;
+       background-color: transparent;
+       border: none;
+       font-size: 30px;
+       color: white;
+       cursor: pointer;
+     }
+     
+     .navLinks {
+       list-style-type: none;
+       display: flex;
+       margin: 0;
+       padding: 0;
+     }
+     
+     .navLinks li {
+       margin: 0 10px;
+     }
+     
+     .navLinks li a {
+       color: white;
+       text-decoration: none;
+       font-size: 18px;
+       transition: color 0.3s;
+     }
+     
+     .navLinks li a:hover {
+       color: #f0a500;
+     }
+
+     .show {
+       display: block;
+     }
+     
+     .navLinks {
+       display: flex;
+     }
+
+     .container {
+       display: flex;
+       align-items: center;
+     }
+     
+     .searchBar input {
+       padding: 5px;
+       font-size: 14px;
+       margin-right: 15px;
+       border-radius: 5px;
+     }
+     
+     .icons i {
+       font-size: 20px;
+       color: white;
+       margin-left: 15px;
+       cursor: pointer;
+     }
+     
+     .icons i:hover {
+       color: #f0a500;
+     }
+          @media (max-width: 768px) {
+      
+       .navLinks {
+         display: none;
+         width: 100%;
+         text-align: center;
+         margin-top: 10px;
+       }
+     
+       .navLinks li {
+         margin: 10px 0;
+       }
+
+       .menuToggle {
+         display: block;
+       }
+     
+      
+       .show {
+         display: block;
+       }
+     }
+     
+     .aboutContainer {
+       padding: 2rem;
+       background-color: #f9f9f9;
+     }
+     
+     .aboutContent {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 2rem;
+     }
+     
+     .textContent {
+       flex: 1;
+     }
+     
+     .imageContainer {
+       flex: 1;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     
+     .aboutImage {
+       width: 100%;
+       max-width: 400px;  /* Sesuaikan ukuran gambar */
+       height: auto;
+       border-radius: 8px;
+     }
+     
+     /* Styling untuk section, judul, dan lainnya */
+     .mission, .vision, .contactInfo {
+       margin-top: 2rem;
+     }
+     
+     .mission h2, .vision h2, .contactInfo h2 {
+       font-size: 1.5rem;
+       color: #2c3e50;
+     }
+     
+     ul {
+       list-style-type: none;
+       padding-left: 0;
+     }
+     
+     ul li {
+       margin-bottom: 0.5rem;
+     }
+     
+     ul li a {
+       color: #3498db;
+       text-decoration: none;
+     }
+     
+     ul li a:hover {
+       text-decoration: underline;
+     }
+     

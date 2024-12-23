@@ -1,0 +1,211 @@
+
+
+.navbar {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #1146f7;
+       padding: 10px 20px;
+       color: white;
+     }
+     
+     .navbar a {
+       color: white;
+       text-decoration: none;
+       font-size: 18px;
+       margin: 0 15px;
+       transition: color 0.3s;
+     }
+     
+     .navbar a:hover {
+       color: #f0a500;
+     }
+     
+     .logo a {
+       font-size: 24px;
+       font-weight: bold;
+       text-transform: uppercase;
+       color: white;
+       text-decoration: none;
+     }
+  
+     .menuToggle {
+       display: none;
+       background-color: transparent;
+       border: none;
+       font-size: 30px;
+       color: white;
+       cursor: pointer;
+     }
+     
+     .navLinks {
+       list-style-type: none;
+       display: flex;
+       margin: 0;
+       padding: 0;
+     }
+     
+     .navLinks li {
+       margin: 0 10px;
+     }
+     
+     .navLinks li a {
+       color: white;
+       text-decoration: none;
+       font-size: 18px;
+       transition: color 0.3s;
+     }
+     
+     .navLinks li a:hover {
+       color: #f0a500;
+     }
+
+     .show {
+       display: block;
+     }
+     
+     .navLinks {
+       display: flex;
+     }
+
+     .container {
+       display: flex;
+       align-items: center;
+     }
+     
+     .searchBar input {
+       padding: 5px;
+       font-size: 14px;
+       margin-right: 15px;
+       border-radius: 5px;
+     }
+     
+     .icons i {
+       font-size: 20px;
+       color: white;
+       margin-left: 15px;
+       cursor: pointer;
+     }
+     
+     .icons i:hover {
+       color: #f0a500;
+     }
+          @media (max-width: 768px) {
+      
+       .navLinks {
+         display: none;
+         width: 100%;
+         text-align: center;
+         margin-top: 10px;
+       }
+     
+       .navLinks li {
+         margin: 10px 0;
+       }
+
+       .menuToggle {
+         display: block;
+       }
+     
+      
+       .show {
+         display: block;
+       }
+     }
+     
+ .contactContainer {
+       padding: 20px;
+       max-width: 800px;
+       margin: 0 auto;
+       background-color: #f9f9f9;
+       border-radius: 8px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+     
+     .contactHeading {
+       font-size: 32px;
+       font-weight: bold;
+       color: #333;
+       text-align: center;
+       margin-bottom: 20px;
+     }
+     
+     .contactForm {
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+     }
+     
+     .contactForm label {
+       font-size: 16px;
+       color: #555;
+     }
+     
+     .contactForm input,
+     .contactForm textarea {
+       padding: 10px;
+       font-size: 16px;
+       border: 1px solid #ddd;
+       border-radius: 5px;
+       width: 100%;
+     }
+
+     .contactForm textarea {
+       resize: vertical;
+       min-height: 150px;
+     }
+     
+     .contactForm button {
+       background-color: #4CAF50;
+       color: white;
+       border: none;
+       padding: 12px;
+       font-size: 18px;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+     }
+     
+     .contactForm button:hover {
+       background-color: #45a049;
+     }
+     
+     .contactInfo {
+       margin-top: 30px;
+       font-size: 16px;
+       color: #555;
+     }
+     
+     .contactInfo p {
+       margin-bottom: 10px;
+     }
+     
+     .contactInfo i {
+       color: #4CAF50;
+       margin-right: 10px;
+     }
+     
+     .contactInfo .address,
+     .contactInfo .email,
+     .contactInfo .phone {
+       margin: 10px 0;
+     }
+     
+     .contactInfo .address i,
+     .contactInfo .email i,
+     .contactInfo .phone i {
+       font-size: 20px;
+       margin-right: 8px;
+     }
+     
+     .contactInfo .address {
+       font-size: 18px;
+       color: #333;
+     }
+     
+     .contactInfo .email,
+     .contactInfo .phone {
+       font-size: 16px;
+       color: #666;
+     }
+     
